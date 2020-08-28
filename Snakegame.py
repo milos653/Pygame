@@ -24,6 +24,10 @@ clock = pygame.time.Clock()
 snake_block = 10
 snake_speed = 15
 
+#Font
+font_style = pygame.font.SysFont("Arialbold", 25)
+score_font = pygame.font.SysFont("Arialbold", 15)
+
 #Rezultat
 def Your_score(score):
     value = score_font.render("Your Score: " + str(score), True, yellow)
