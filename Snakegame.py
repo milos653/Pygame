@@ -24,6 +24,11 @@ clock = pygame.time.Clock()
 snake_block = 10
 snake_speed = 15
 
+#Rezultat
+def Your_score(score):
+    value = score_font.render("Your Score: " + str(score), True, yellow)
+    dis.blit(value, [0, 0])
+
 #Iscrtavanje zmijice
 def our_snake(snake_block, snake_list):
     for x in snake_list:
