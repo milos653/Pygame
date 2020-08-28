@@ -3,7 +3,7 @@ import time
 import random
 
 #Inicijalizacija Pygame-a
-Pygame.init()
+pygame.init()
 
 #Boje
 white = (255, 255, 255)
